@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #0d0d0d;
+    color: #E1E8ED;
+    animation: fade 2.5s;
+  }
+  
+  .outline {
+    display: flex;
+    margin: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-top: 10rem;
+    justify-content: center;
+    align-content: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: solid transparent;
+    background-image: linear-gradient(#0d0d0d, #0d0d0d), radial-gradient(circle at top left, #29f083, #51fced );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+
+  }
+  
+  .profile {
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    padding: 2.5%
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #name {
+    margin: 0;
+    padding-top: 1%;
+    flex: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.25em;
+  }
+  
+  #tagline {
+    margin: 0;
+    padding-top: 1%;
+    flex: auto;
+    font-size: 1.25em;
+  }
+  
+  .social {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 1rem;
+  }
+  
+  a {
+    color: #AAB8C2;
+    font-size: 1.75em;
+  }
+  
+  #location {
+    font-size: 1.25em;
+  }
+  
+  a:hover {
+    color:#fff;
+  }
+  
+  @media (max-width: 1680px) {
+    .outline {
+      margin-top: 10rem;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    html {
+      margin-top: 1rem;
+      font-size: 10pt;
+
+    }
+  }
+  
+  @media (max-width: 360px) {
+    html {
+      font-size: 8pt;
+    }
+  }
