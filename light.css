@@ -82,16 +82,9 @@ body {
     color:#657786;
   }
   
-  @media (max-width: 1680px) {
-    .outline {
-      margin-top: 10rem;
-    }
-  
-  }
-  
   @media (max-width: 480px) {
     html {
-      margin-top: 1rem;
+      margin-top: -5rem;
       font-size: 10pt;
 
     }
