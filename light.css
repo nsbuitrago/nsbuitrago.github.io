@@ -82,16 +82,27 @@ body {
     color:#657786;
   }
   
+  @media (max-width: 1680px) {
+    .outline {
+      margin-top: 20rem
+    }
+  }
+  
   @media (max-width: 480px) {
     html {
-      margin-top: -5rem;
       font-size: 10pt;
-
+    }
+    .outline {
+        margin-top: 10rem;
     }
   }
   
   @media (max-width: 360px) {
     html {
       font-size: 8pt;
+    }
+
+    .outline {
+      margin-top: 15rem;
     }
   }
