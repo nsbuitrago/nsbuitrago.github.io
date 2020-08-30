@@ -18,14 +18,10 @@ body {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    /*border: solid #ff0062;*/
     border: solid transparent;
     background-image: linear-gradient(#fff, #fff), radial-gradient(circle at top left, #fab73b, #fc517c );
     background-origin: border-box;
     background-clip: content-box, border-box;
-
-
-
   }
   
   .profile {
@@ -82,18 +78,9 @@ body {
     color:#657786;
   }
   
-  @media (max-width: 1680px) {
-    .outline {
-      margin-top: 20rem
-    }
-  }
-  
   @media (max-width: 480px) {
     html {
       font-size: 10pt;
-    }
-    .outline {
-        margin-top: 10rem;
     }
   }
   
