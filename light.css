@@ -1,6 +1,14 @@
 body {
   background-color: #F0F2F5;
   font-family: "Helvetica Neue", sans-serif;
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 #card {
@@ -44,7 +52,7 @@ body {
 }
 
 .social:hover {
-  color: #657786;
+  color: #ffbd42;
 }
 
 @media (min-width: 760px) {
@@ -70,3 +78,5 @@ body {
     width: 25%
   }
 }
+
+
