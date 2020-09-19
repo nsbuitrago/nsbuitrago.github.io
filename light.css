@@ -16,7 +16,7 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
+  width: 85%;
   background-color: #fff;
   border-radius: 5%;
 }
@@ -46,13 +46,13 @@ body {
 }
 
 .social {
-  font-size: 1.25em;
+  font-size: 1.5em;
   margin-right: 0.75em;
   color: #AAB8C2;
 }
 
 .social:hover {
-  color: #ffbd42;
+  color: #657786;
 }
 
 @media (min-width: 760px) {
