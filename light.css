@@ -1,6 +1,6 @@
 body {
-  background-color: #F0F2F5;
-  font-family: "Helvetica Neue", sans-serif;
+  background-color: #f2f4f8;
+  font-family: degular-text, sans-serif;
   animation: fadein 2s;
   -webkit-animation: fadein 2s;
   -moz-animation: fadein 2s;
@@ -17,18 +17,28 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 85%;
-  background-color: #fff;
   border-radius: 5%;
+  text-align: center;
+  box-shadow: 4px 4px 8px 0px #0000000f, -4px -4px 8px 0px #fff;
+}
+
+.profile-wrapper {
+  display: inline-block;
+  text-align: center;
+  padding: 5%;
 }
 
 #profile {
-  width: 100%;
-  border-radius: 5%;
+  width: 70%;
+  border-radius: 50%;
 }
 
 #text01 {
   color: #657786;
   padding-left: 5%;
+  font-family: degular-display, sans-serif;
+  font-weight: 600;
+  font-size: 1.25em;
 }
 
 #name {
@@ -49,14 +59,18 @@ body {
 }
 
 .social-links {
-  padding-left: 5%;
-  padding-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 .social {
   font-size: 1.5em;
-  margin-right: 0.75em;
+  margin-right: 1.5em;
   color: #AAB8C2;
+  transition: all 300ms ease-in-out;
+}
+
+#cv {
+  margin-right: 0em;
 }
 
 .social:hover {
