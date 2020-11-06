@@ -7,8 +7,12 @@ body {
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #card {
@@ -50,7 +54,7 @@ body {
 }
 
 #text02 {
-  color: #AAB8C2;
+  color: #657786;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 1%;
@@ -60,20 +64,21 @@ body {
 
 .social-links {
   margin-bottom: 10%;
+  text-align: center;
 }
 
 .social {
   font-size: 1.5em;
-  margin-right: 1.5em;
-  color: #AAB8C2;
+  margin: 0 20px;
+  color: #657786;
   transition: all 300ms ease-in-out;
 }
 
-#cv {
-  margin-right: 0em;
+.social-links:hover > .social {
+  color: #aab8c2;
 }
 
-.social:hover {
+.social-links:hover > .social:hover {
   color: #657786;
 }
 
@@ -85,20 +90,18 @@ body {
 
 @media (min-width: 1024px) {
   #card {
-    width: 40%
+    width: 40%;
   }
 }
 
 @media (min-width: 1260px) {
   #card {
-    width: 30%
+    width: 30%;
   }
 }
 
 @media (min-width: 1500px) {
   #card {
-    width: 20%
+    width: 20%;
   }
 }
-
-
