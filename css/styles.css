@@ -15,7 +15,7 @@ body {
   }
 }
 
-#card {
+.card {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -32,37 +32,28 @@ body {
   padding: 5%;
 }
 
-#profile {
+.profile {
   width: 70%;
   border-radius: 50%;
 }
 
-#text01 {
+.card-text01 {
   color: #657786;
-  padding-left: 5%;
   font-family: degular-display, sans-serif;
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 2.5em;
 }
 
-#name {
-  margin-bottom: -0.5%;
-}
-
-#tagline {
-  font-weight: 400;
-}
-
-#text02 {
+.card-text02 {
   color: #657786;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 6%;
+  padding-right: 6%;
   padding-top: 1%;
   padding-bottom: 2%;
   line-height: 1.5em;
 }
 
-.social-links {
+.social-block {
   margin-bottom: 10%;
   text-align: center;
 }
@@ -74,34 +65,34 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.social-links:hover > .social {
+.social-block:hover > .social {
   color: #aab8c2;
 }
 
-.social-links:hover > .social:hover {
+.social-block:hover > .social:hover {
   color: #657786;
 }
 
 @media (min-width: 760px) {
-  #card {
+  .card {
     width: 50%;
   }
 }
 
 @media (min-width: 1024px) {
-  #card {
+  .card {
     width: 40%;
   }
 }
 
 @media (min-width: 1260px) {
-  #card {
+  .card {
     width: 30%;
   }
 }
 
 @media (min-width: 1500px) {
-  #card {
+  .card {
     width: 20%;
   }
 }
