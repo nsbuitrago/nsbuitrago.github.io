@@ -1,0 +1,79 @@
+/* Light theme */
+body {
+  background-color: #f2f4f8;
+  color: #1f1f1f;
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.main-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: right;
+}
+
+.main-text01 {
+  font-family: degular-display;
+  font-size: 3.5rem;
+  margin-bottom: 0px;
+}
+
+.main-text02 {
+  font-family: degular-text;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.social-link {
+  color: #5c5c5c;
+  font-size: 1.25rem;
+  margin-left: 20px;
+}
+
+.social-link:hover {
+  color: #1f1f1f;
+  transition: all 300ms ease-in-out;
+}
+
+/* For the small phone gang */
+@media (max-width: 320px) {
+  .main-text01 {
+    font-size: 3.25rem;
+  }
+
+  .main-text02 {
+    font-size: 1.25rem;
+  }
+
+  .social-link {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 280px) {
+  .main-text01 {
+    font-size: 3rem;
+  }
+
+  .main-text02 {
+    font-size: 1rem;
+  }
+
+  .social-link {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=screen-light.css.map */
