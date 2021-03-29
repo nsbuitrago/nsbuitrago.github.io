@@ -1,13 +1,17 @@
+:root {
+  --contact-hovr: #fd3365;
+  --twitter-hovr: #1d9bf0;
+  --github-hovr: #36dd88;
+}
+
 [theme="light"] {
   --bg-color: #f2f4f8;
-  --font-color: #101010;
-  --link-color: #5c5c5c;
+  --font-color: #161b3c;
 }
 
 [theme="dark"] {
   --bg-color: #101010;
   --font-color: #ffffff;
-  --link-color: #cccccc;
 }
 
 body {
@@ -27,6 +31,7 @@ body {
   }
 }
 
+
 .main-content {
   position: absolute;
   display: flex;
@@ -39,25 +44,36 @@ body {
 
 .main-text01 {
   font-family: degular-display;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   margin-bottom: 0px;
 }
 
 .main-text02 {
   font-family: degular-text;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 200;
 }
 
 .social-link {
-  color: var(--link-color);
-  font-size: 1.25rem;
-  margin-left: 20px;
+  color: var(--font-color);
+  font-size: 1.5rem;
+  margin-left: 20px;;
 }
 
 .social-link:hover {
-  color: var(--font-color);
   transition: all 300ms ease-in-out;
+}
+
+#twitter-link:hover {
+  color: var(--twitter-hovr);
+}
+
+#github-link:hover {
+  color: var(--github-hovr);
+}
+
+#contact-link:hover {
+  color: var(--contact-hovr);
 }
 
 @media (max-width: 320px) {
