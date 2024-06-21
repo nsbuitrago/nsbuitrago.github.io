@@ -11,8 +11,8 @@ export default {
 		colors: {
 			'light': '#F0F1EF',
 			'dark': '#1A2023',
-			'text-dark': '#33414A',
-			'text-light': '#F0F1EF',
+			'fg-dark': '#34424C',
+			'fg-light': '#F0F1EF',
 			'primary': '#689689',
 			'fg-01': '#CDD8DF',
 			'fg-02': '#96A5AE',
