@@ -1,0 +1,40 @@
+---
+import Base from "../layouts/Base.astro";
+import Experience from "../layouts/Experience.astro";
+---
+
+<Base title="NSB | About Me">
+  <div class="container mx-auto p-10 text-left text-fg-dark dark:text-fg-light">
+    <h1 class="text-xl text-slate-400">Hi there,</h1>
+    <h1 class="text-4xl">I'm <span></span> Nicolas.
+    <h1 class="text-xl">A systems and synthetic biologist.</h1>
+  </div>
+  <div class="container mx-auto p-10 text-left dark:text-fg-light">
+    <p class="uppercase tracking-widest text-slate-400 dark:text-fg-03">a few words about me</p>
+    <p class="my-5">I'm currently a Ph.D. student in the <a href="https://www.szablowskilab.org" target="_blank">Szablowski Lab</a>
+      working to develop experimental and computational tools for engineering new therapeutics. My main interests lie at
+      the intersection of protein engineering, synthetic biology, and machine learning. However, I'm always open to exploring new
+      and exciting areas.
+      </p>
+    <p>For a full list of work, check out my <a class="underline" href="/research">research</a> page.</p>
+  </div>
+  <div class="container mx-auto p-10 text-left dark:text-fg-light">
+    <p class="uppercase tracking-widest text-slate-400 dark:text-fg-03">Experience</p>
+    <Experience start_date="2021" end_date="present" position="Graduate Research Assistant" company="Szablowski Lab" company_link="https://www.szablowskilab.org"/>
+    <Experience start_date="2020" end_date="2021" position="Research Assistant" company="Hebert Lab" company_link="https://hebertlab.einsteinmedneuroscience.org"/>
+    <Experience start_date="2017" end_date="2020" position="Undergraduate Research Assistant" company="Santamaria Lab" company_link="https://www.utsa.edu/Santamarialab/index.htm"/>
+  </div>
+  <div class="container mx-auto p-10 text-left dark:text-fg-light">
+    <p class="uppercase tracking-widest text-slate-400 dark:text-fg-03">Education</p>
+    <div class="dark:text-fg-light my-3">
+            <p class="dark:text-fg-03">2021 - present</p>
+            <p>Ph.D. Systems, Synthetic, & Physical Biology, Rice University</p>
+    </div>
+    <div class="dark:text-fg-light my-3">
+            <p class="dark:text-fg-03">2016 - 2020</p>
+            <p>B.S. Biochemistry, <em>Summa Cum Laude</em>, University of Texas at San Antonio</p>
+    </div>
+  </div>
+
+      
+</Base>

@@ -11,11 +11,31 @@ const { title } = Astro.props;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script is:inline src="https://kit.fontawesome.com/385ad6aab0.js" crossorigin="anonymous"></script>
+    <script is:inline src="js/nav.js"></script>
+
     <title>{title}</title>
 </head>
 <body class="h-full w-full bg-light dark:bg-dark">
-	<Header />
-	<main>
+	<nav class="fixed bottom-0 flex flex-row justify-evenly items-center w-full h-12 border-t border-t-slate-400 border-t-solid  bg-light dark:bg-dark z-10">
+			
+			
+		<a href="/" class="text-slate-400">
+			<i class="fa-solid fa-house"></i>
+		</a>
+		<a href="/research" class="text-slate-400">
+			<i class="fa-solid fa-flask"></i>
+		</a>
+		<a href="/notes" class="text-slate-400">
+			<i class="fa-solid fa-pen"></i>
+		</a>
+		<a href="/about" class="text-slate-400">
+			<i class="fa-solid fa-circle-info"></i>
+		</a>
+		<a href="/about" class="text-slate-400">
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</a>
+	</nav>
+	<main class="z-0">
 		<slot />
 	</main>
 	<!-- <Footer /> -->

@@ -1,0 +1,8 @@
+---
+const { start_date, end_date, position, company, company_link } = Astro.props;
+---
+
+<div class="dark:text-fg-light my-3">
+	<p class="dark:text-fg-03">{start_date} - {end_date}</p>
+	<p>{position}, <a href={company_link} target="_blank">{company}</a></p>
+</div>
